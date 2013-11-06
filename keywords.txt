@@ -1,0 +1,21 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+DrvUART_Read	KEYWORD2
+DrvUART_Read	KEYWORD2
+Reset_Target	KEYWORD2
+Wifi_init	KEYWORD2
+Wifi_uart_send_data	KEYWORD2
+Get_asc_length	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+
