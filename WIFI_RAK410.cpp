@@ -60,7 +60,7 @@ uint8_t Wifi_uart_send_data(uint8_t flag,uint8_t *pu8TxBuf,uint16_t data_length)
 {
 	uint8_t data[20]={0x61,0x74,0x2b,0x73,0x65,0x6e,0x64,0x5f,0x64,0x61,0x74,0x61,0x3d,0x30,0x2c,0,0,0,0,0};//asc: at+send_data=< flag>,<data_length>
 	uint16_t i = 0,ASC_length = 0;
-	data[14] = 0x30+flag;
+	data[13] = 0x30+flag;
 	ASC_length = Get_asc_length(data_length);
 	
 	switch(ASC_length)
