@@ -9,7 +9,7 @@
 #define    RAK_PWRMODE_CMD    "at+pwrmode=0\r\n"			//power mode
 
 #define    RAK_LTCP_CMD       "at+ltcp=25000\r\n"				   //Set up TCP Sever
-#define    RAK_LUDP_CMD       "at+ludp=25000\r\n"				   //Set up UDP Client
+#define    RAK_LUDP_CMD       "at+ludp=25000\r\n"				   //Set up UDP Sever
 #define    RAK_UDP_CMD       "at+udp=192.168.1.54,25000,25000\r\n" //Set up UDP Client
 #define    RAK_TCP_CMD       "at+tcp=192.168.1.54,25000,25000\r\n" //Set up TCP Client
 
